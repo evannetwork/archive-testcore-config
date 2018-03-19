@@ -17,7 +17,7 @@
   "params": {
     "gasLimitBoundDivisor": "0x400",
     "maximumExtraDataSize": "0x20",
-    "minGasLimit": "0x3938700",
+    "minGasLimit": "0x‭7A1200‬",
     "networkID": "0x2323"
   },
   "genesis": {
