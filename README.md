@@ -1,4 +1,4 @@
-# EVAN network
+# evan testcore network
 
 ## Installation
 
