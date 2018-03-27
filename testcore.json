@@ -27,6 +27,9 @@
     "difficulty": "0x20000",
     "gasLimit": "0x7A1200"
   },
+  "nodes": [
+    "enode://cf10233012ebd573b4f946b2edb2be1d9126ccfa460a241cfb5eda107065cc00f35c55cd724f5de593a119dc69d1aee617112a9223b32eda0a7e77cc90959c14@18.196.213.4:30303"
+  ],
   "accounts": {
     "0x0000000000000000000000000000000000000001": {
       "balance": "1",
