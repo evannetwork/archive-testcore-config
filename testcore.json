@@ -6,7 +6,9 @@
         "stepDuration": "3",
         "validators": {
           "safeContract": "0x0000000000000000000000000000000000000005"
-        }
+        },
+        "emptyStepsTransition": "1500",
+        "maximumEmptySteps": "120"
       }
     }
   },
