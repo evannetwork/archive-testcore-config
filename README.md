@@ -2,7 +2,7 @@
 
 ## Installation
 
-Install [Parity](https://github.com/paritytech/parity/releases) from Parity's official website. Download the [evan.network testcore config file](https://raw.githubusercontent.com/evannetwork/core-cnfig/master/testcore.json). Run Parity with `parity --chain testcore.json`.
+Install [Parity](https://github.com/paritytech/parity/releases) from Parity's official website. Download the [evan.network testcore config file](https://raw.githubusercontent.com/evannetwork/testcore-config/master/testcore.json). Run Parity with `parity --chain testcore.json`.
 
 ```
 parity --chain "/path/to/testcore.json" --config "path/to/contractus_test_chain.toml"
