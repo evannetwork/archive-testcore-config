@@ -5,8 +5,21 @@
       "params": {
         "stepDuration": "3",
         "validators": {
-          "safeContract": "0x0000000000000000000000000000000000000005"
-        }
+          "multi": {
+            "0": {
+              "safeContract": "0x0000000000000000000000000000000000000005"
+            },
+            "43000": {
+              "safeContract": "0xa081a8d1f01e00ef9be7b81889581e3f727649b4"
+            }
+          }
+        },
+        "emptyStepsTransition": "1500",
+        "maximumEmptySteps": "900",
+        "eip140Transition": "43000",
+        "eip211Transition": "43000",
+        "eip214Transition": "43000",
+        "eip658Transition": "43000"
       }
     }
   },
@@ -15,7 +28,8 @@
     "maximumExtraDataSize": "0x20",
     "minGasLimit": "0x7A1200",
     "networkID": "0x1E51C06E",
-    "registrar": "0xf62711aa6cca7962813a306c0B3eCbA486Eb0eD1"
+    "registrar": "0xf62711aa6cca7962813a306c0B3eCbA486Eb0eD1",
+    "transactionPermissionContract": "0xa426f3f28e1a79aa91e46eb4430f25ac09adf16d"
   },
   "genesis": {
     "seal": {
